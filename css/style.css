@@ -24,11 +24,27 @@ body {
     float: right;
 }
 
+.w-100 {
+    width: 100%;
+}
 
 .w-70 {
     width: 70%;
     margin: auto;
 }
+
+.w-50 {
+    width: 50%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
 
 .btn {
     text-decoration: none;
@@ -139,6 +155,20 @@ header nav li:hover {
 
 /* fine jumbotron */
 
+/* inizio main */
+
+
+main .center {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+main .piani .enterprise {
+    width: 100%;
+}
+
+/* fine main */
+
 /* inizio debug */
 
 .debug main section {
@@ -160,15 +190,31 @@ header nav li:hover {
 
 .debug main .piani .float-sx {
     height: 200px;
-    width: 30%;
     border: 1px solid black;
 }
 
-.debug main .piani .enterprise {
+.debug main .piani .enterprise, .piu {
+    background-color: lightseagreen;
     height: 200px;
-    width: 100%;
     border: 1px solid black;
 }
+
+.debug main section .img-raga, .debug main section .testo{
+    background-color: rgb(178, 32, 154);
+    height: 200px;
+    border: 1px solid black;
+}
+
+.debug main .esegui .top {
+    background-color: lightpink;
+    height: 100px;
+}
+
+.debug main .esegui .float-sx {
+    height: 200px;
+    border: 1px solid black;
+}
+
 
 
 /* fine debug */
