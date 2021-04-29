@@ -45,6 +45,17 @@ body {
     width: 30%;
 }
 
+.w-20 {
+    width: 20%;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.pt-40 {
+    padding-top: 40px;
+}
 
 .btn {
     text-decoration: none;
@@ -122,7 +133,6 @@ header nav li:hover {
     font-family: 'Antonio', sans-serif;
     font-size: 70px;
     line-height: 1.6;
-    margin-top: 40px;
     margin-bottom: 30px;
 }
 
@@ -130,7 +140,7 @@ header nav li:hover {
     width: 30%;
 }
 .jumbotron .jumbo-sx .prova {
-    margin: 40px 0 20px 0;
+    margin-bottom: 20px;
 }
 
 .jumbotron .jumbo-sx a {
@@ -163,11 +173,13 @@ main .center {
     margin-right: 5%;
 }
 
-main .piani .enterprise {
-    width: 100%;
-}
-
 /* fine main */
+
+/* inizio footer */
+
+
+
+/* fine footer */
 
 /* inizio debug */
 
@@ -215,7 +227,11 @@ main .piani .enterprise {
     border: 1px solid black;
 }
 
-
+.debug footer div div{
+    height: 150px;
+    background-color: lightyellow;
+    border: 1px solid black;
+}
 
 /* fine debug */
 
