@@ -30,7 +30,9 @@
 
 .blu{}
 
-
+li {
+    list-style-type: none;
+}
 
 /* fine common */
 
@@ -42,6 +44,11 @@ header {
     width: 100%;
     position: fixed;
     top: 0;
+}
+
+header .logo img{
+    height: 25px;
+    margin: calc((80px - 25px)/ 2);
 }
 
 
@@ -71,19 +78,14 @@ header {
     border: 1px solid black;
 }
 
-.debug header .logo, .debug header .inizia {
+.debug header .inizia {
     background-color: blue;
     border: 1px solid black;
     height: 50px;
     width: 120px;
 }
 
-.debug header .logo, .debug header .inizia {
-    background-color: blue;
-    border: 1px solid black;
-    height: 50px;
-    width: 120px;
-}
+
 
 .debug header .nav-sx li, .debug header .nav-dx li {
     background-color: green;
@@ -94,7 +96,7 @@ header {
 }
 
 .debug .jumbotron .w-80 {
-    height: 600px;
+    /* height: 600px; */
     background-color: orange;
     border: 1px solid black;    
 }
