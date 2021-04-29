@@ -140,48 +140,34 @@ header nav li:hover {
 
 /* inizio debug */
 
-/* .debug header {
-    background-color: aqua;
+.debug main section {
+    height: 500px;
+    background-color: lightgreen;
     border: 1px solid black;
-} */
+    margin-top: 150px;
+}
 
-/* .debug header .inizia {
-    background-color: blue;
+.debug footer {
+    height: 500px;
+    background-color: grey;
+    margin-top: 150px;
+}
+
+.debug main .piani .top {
+    background-color: lightpink;
+}
+
+.debug main .piani .float-sx {
+    height: 200px;
+    width: 30%;
     border: 1px solid black;
+}
 
-    width: 120px;
-} */
-
-
-
-/* .debug header .nav-sx li, .debug header .nav-dx li {
-    background-color: green;
-    border: 1px solid black;
-    height: 80px;
-    width: 120px;
-
-} */
-
-/* .debug .jumbotron .w-70 {
-    height: 600px;
-    background-color: orange;
-    border: 1px solid black;    
-} */
-
-/* .debug .jumbotron .title1 {
+.debug main .piani .enterprise {
+    height: 200px;
     width: 100%;
-    height: 100px;
-    background-color: red;
-    border: 1px solid black;   
-} */
-
- /* .debug .jumbotron .w-70 .jumbo-dx {
-
-    background-color: yellow;
     border: 1px solid black;
-
-} */
-
+}
 
 
 /* fine debug */
