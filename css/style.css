@@ -68,12 +68,21 @@ header .logo img{
 }
 
 header nav li {
-    line-height: 78px;
+    line-height: 76px;
     margin: 0 20px;
 }
 
 header .inizia {
     margin: 27px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav li:hover {
+    border-bottom: 2px solid black;
 }
 
 
@@ -102,10 +111,10 @@ header .inizia {
 
 /* inizio debug */
 
-.debug header {
+/* .debug header {
     background-color: aqua;
     border: 1px solid black;
-}
+} */
 
 /* .debug header .inizia {
     background-color: blue;
