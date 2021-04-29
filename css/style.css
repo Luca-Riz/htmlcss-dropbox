@@ -6,16 +6,89 @@
 
 /* inizio common */
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.float-sx {
+    float: left;
+}
+
+.float-dx {
+    float: right;
+}
+
+
 .w-80 {
     width: 80%;
+    margin: auto;
 }
+
+.btn {}
+
+.blu{}
+
+
 
 /* fine common */
 
 
 /* inizio header */
 
+header {
+    height: 80px;
+    width: 100%;
+    position: fixed;
+}
+
+
 /* fine header */
+
+/* inizio jumbotron */
+
+
+
+/* fine jumbotron */
+
+/* inizio debug */
+
+.debug header {
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+.debug header .logo, .debug header .inizia {
+    background-color: blue;
+    border: 1px solid black;
+    height: 50px;
+    width: 120px;
+}
+
+.debug header .logo, .debug header .inizia {
+    background-color: blue;
+    border: 1px solid black;
+    height: 50px;
+    width: 120px;
+}
+
+.debug header .nav-sx li, .debug header .nav-dx li {
+    background-color: green;
+    border: 1px solid black;
+    height: 80px;
+    width: 120px;
+
+}
+
+.debug .jumbotron .h1 {
+    height: 200px;
+    background-color: orange;
+    border: 1px solid black;    
+
+}
+
+/* fine debug */
 
 
 
