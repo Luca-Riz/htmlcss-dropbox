@@ -25,14 +25,13 @@ body {
 }
 
 
-.w-80 {
-    width: 80%;
+.w-70 {
+    width: 70%;
     margin: auto;
 }
 
 .btn {
     text-decoration: none;
-    padding: 5px 20px;
 }
 
 .btn:hover {
@@ -73,6 +72,7 @@ header nav li {
 }
 
 header .inizia {
+    padding: 5px 20px;
     margin: 27px;
 }
 
@@ -92,17 +92,36 @@ header nav li:hover {
 
 .jumbotron {
     margin-top: 80px;
+    font-size: 20px;
+    line-height: 1.6;
+    background-color: #b4d0e7;
 }
 
 .jumbotron .title1 h1 {
     font-family: 'Antonio', sans-serif;
+    font-size: 70px;
+    line-height: 1.6;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
 
-.jumbotron .w-80 .jumbo-sx {
-    width: 35%;
+.jumbotron .w-70 .jumbo-sx {
+    width: 30%;
+}
+.jumbotron .jumbo-sx .prova {
+    margin: 40px 0 20px 0;
 }
 
-.jumbotron .w-80 .jumbo-dx {
+.jumbotron .jumbo-sx a {
+    padding: 10px 20px;
+
+}
+
+.jumbotron .jumbo-sx .annulla {
+    font-size: 16px;
+}
+
+.jumbotron .w-70 .jumbo-dx {
     width: 60%;
 }
 
@@ -133,20 +152,20 @@ header nav li:hover {
 
 } */
 
-.debug .jumbotron .w-80 {
+.debug .jumbotron .w-70 {
     /* height: 600px; */
-    background-color: orange;
+    /* background-color: orange; */
     border: 1px solid black;    
 }
 
-.debug .jumbotron .title1 {
+/* .debug .jumbotron .title1 {
     width: 100%;
     height: 100px;
     background-color: red;
     border: 1px solid black;   
-}
+} */
 
-.debug .jumbotron .w-80 .jumbo-sx, .debug .jumbotron .w-80 .jumbo-dx {
+ .debug .jumbotron .w-70 .jumbo-dx {
     height: 200px;
     background-color: yellow;
     border: 1px solid black;
