@@ -59,6 +59,7 @@ header {
     position: fixed;
     top: 0;
     font-size: 20px;
+    background-color: white;
 }
 
 header .logo img{
