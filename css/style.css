@@ -120,6 +120,7 @@ header {
     height: 80px;
     width: 100%;
     position: fixed;
+    z-index: 10;
     top: 0;
     font-size: 20px;
     background-color: white;
