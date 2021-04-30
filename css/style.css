@@ -184,10 +184,14 @@ main .center {
 /* inizio debug */
 
 .debug main section {
-    height: 500px;
+
     background-color: lightgreen;
     border: 1px solid black;
     margin-top: 150px;
+}
+
+.debug .team, .debug .faq {
+    height: 500px;
 }
 
 .debug footer {
