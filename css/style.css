@@ -54,6 +54,10 @@ body {
     width: 20%;
 }
 
+section.sec1{
+    margin-top: 150px;
+}
+
 .mt-40 {
     margin-top: 40px;
 }
@@ -214,10 +218,6 @@ main .center {
 
 main {
     font-size: 20px;
-}
-
-main section.sec1{
-    margin-top: 150px;
 }
 
 .piani label {
