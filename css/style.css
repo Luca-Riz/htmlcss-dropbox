@@ -286,25 +286,25 @@ main {
 /* inizio riga piani */
 /* inizio colonna sinistra */
 
-.row .w-30 {
+.row .w-30, .enterprise {
     border: 1px solid #d0d0d3;
 }
 
-.row .w-30 .top {
+.row .w-30 .top, .enterprise .top {
     text-align: center;
     padding: 10px;
     border-bottom: 1px solid #d0d0d3;
 }
 
-.row .general {
+.row .general, .enterprise .general {
     padding: 25px;
 }
 
-.row .general h3 {
+.row .general h3, .enterprise h3 {
     margin-bottom: 25px;
 }
 
-.row .general p {
+.row .general p, .enterprise p {
     margin: 25px 0;
     font-size: 16px;
 }
@@ -319,6 +319,18 @@ main section .general hr {
 
 /* fine colonna sinistra */
 
+/* inizio riga enterprise */
+.enterprise .general {
+    position: relative;
+}
+
+.enterprise .contatta {
+    position: absolute;
+    top: 35px;
+    right: 35px;
+}
+
+/* fine riga enterprise */
 
 /* fine main piani */
 
@@ -332,13 +344,6 @@ main section .general hr {
 
 /* inizio debug */
 
-.debug main section {
-    /* margin-top: 150px; */
-    /* background-color: lightgreen; */
-    /* border: 1px solid black; */
-
-}
-
 .debug .team, .debug .faq {
     height: 500px;
 }
@@ -349,16 +354,12 @@ main section .general hr {
     margin-top: 150px;
 }
 
-.debug main .piani .float-sx {
-    /* height: 200px; */
-    /* border: 1px solid black; */
-}
 
-.debug main .piani .enterprise, .piu {
+/* .debug main .piani .enterprise, .piu {
     background-color: lightseagreen;
     height: 200px;
     border: 1px solid black;
-}
+} */
 
 .debug main section .img-raga, .debug main section .testo{
     background-color: rgb(178, 32, 154);
