@@ -33,6 +33,11 @@ body {
     margin: auto;
 }
 
+.w-60 {
+    width: 60%;
+    margin: auto;
+}
+
 .w-50 {
     width: 50%;
 }
@@ -75,6 +80,11 @@ li {
     list-style-type: none;
 }
 
+h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
 /* fine common */
 
 
@@ -87,6 +97,7 @@ header {
     top: 0;
     font-size: 20px;
     background-color: white;
+    border-bottom: 1px solid #d0d0d3;
 }
 
 header .logo img{
@@ -160,9 +171,12 @@ header nav li:hover {
 
 .jumbotron .w-70 .jumbo-dx {
     width: 68%;
-    height: 450px;
+    margin-bottom: -100px;
 }
 
+.jumbotron .w-70 .jumbo-dx img {
+    width: 100%;
+}
 
 /* fine jumbotron */
 
@@ -173,6 +187,74 @@ main .center {
     margin-left: 5%;
     margin-right: 5%;
 }
+
+/* inizio main piani */
+
+main {
+    font-size: 20px;
+}
+
+.piani label {
+    display: inline-block;
+}
+
+.rw2 {
+    margin-left: 20px;
+}
+
+/* inizio radiobox */
+.radioview {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    user-select: none;
+}
+/* Hide the browser's default radio button */
+.radioview input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid #b8b8b8;
+}
+/* When the radio button is checked, add a blue background */
+.radioview input:checked ~ .checkmark {
+    background-color: #0061ff;
+}
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+  /* Show the indicator (dot/circle) when checked */
+.radioview input:checked ~ .checkmark:after {
+    display: block;
+}
+/* Style the indicator (dot/circle) */
+.radioview .checkmark:after {
+    top: 5px;
+    left: 5px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+/* fine radiobox */
+
+
+/* fine main piani */
 
 /* fine main */
 
