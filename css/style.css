@@ -73,7 +73,10 @@ body {
 .blu{
     background-color: #0061ff;
     color: white;
+}
 
+.blu-stnd{
+    padding: 10px 20px;
 }
 
 li {
@@ -83,6 +86,17 @@ li {
 h2 {
     font-size: 40px;
     margin-bottom: 40px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+a.acq {
+    color:  #0061ff;
+}
+a.acq:hover {
+    text-decoration: none;
 }
 
 /* fine common */
@@ -155,7 +169,7 @@ header nav li:hover {
 }
 
 .jumbotron .jumbo-sx a {
-    padding: 10px 20px;
+
 
 }
 
@@ -202,12 +216,16 @@ main {
     margin-left: 20px;
 }
 
+.grey {
+    color: grey;
+}
+
 /* inizio radiobox */
 .radioview {
     display: block;
     position: relative;
     padding-left: 25px;
-    margin-bottom: 12px;
+    margin-bottom: 25px;
     cursor: pointer;
     user-select: none;
 }
@@ -253,6 +271,21 @@ main {
 }
 /* fine radiobox */
 
+/* inizio riga piani */
+/* inizio colonna sinistra */
+
+.row .w-30 {
+    border: 1px solid #d0d0d3;
+}
+
+.row .w-30 .top {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #d0d0d3;
+}
+
+/* fine colonna sinistra */
+
 
 /* fine main piani */
 
@@ -283,13 +316,9 @@ main {
     margin-top: 150px;
 }
 
-.debug main .piani .top {
-    background-color: lightpink;
-}
-
 .debug main .piani .float-sx {
-    height: 200px;
-    border: 1px solid black;
+    /* height: 200px; */
+    /* border: 1px solid black; */
 }
 
 .debug main .piani .enterprise, .piu {
