@@ -216,7 +216,7 @@ main {
     font-size: 20px;
 }
 
-main section{
+main section.sec1{
     margin-top: 150px;
 }
 
@@ -333,7 +333,7 @@ main section .general hr {
 /* inizio debug */
 
 .debug main section {
-    margin-top: 150px;
+    /* margin-top: 150px; */
     /* background-color: lightgreen; */
     /* border: 1px solid black; */
 
