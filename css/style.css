@@ -104,7 +104,7 @@ h5 {
     font-size: 20px;
 }
 
-a.acq {
+a.acq, .fa-check {
     color:  #0061ff;
 }
 a.acq:hover {
