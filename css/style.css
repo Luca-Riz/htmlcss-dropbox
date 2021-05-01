@@ -257,6 +257,7 @@ main {
 /* Hide the browser's default radio button */
 .radioview input {
     position: absolute;
+    /* left: 0;  riposizionamento click */
     opacity: 0;
     cursor: pointer;
 }
