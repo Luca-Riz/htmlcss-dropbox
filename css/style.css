@@ -414,6 +414,36 @@ main .scopri:hover {
 }
 
 /* fine esegui */
+
+/* inizio team */
+
+.team .various {
+    height: 30vw;
+    background-color: chartreuse;
+}
+
+.team .various .sx, .team .various .dx {
+    width: 30vw;
+    height: 30vw;
+    background-color: brown;
+}
+
+.team .various .sx div, .team .various .dx div {
+    height: 15vw;
+    width: 15vw;
+    border: 1px solid black;
+} 
+
+.team .various .center {
+    height: 30vw;
+    width: 39vw;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: cadetblue;
+    }
+
+
+/* fine team */
 /* fine main */
 
 /* inizio footer */
@@ -424,7 +454,7 @@ main .scopri:hover {
 
 /* inizio debug */
 
-.debug .team, .debug .faq {
+.debug .faq {
     height: 500px;
     background-color: aqua;
 }
