@@ -405,6 +405,14 @@ div.btn-black {
     line-height: 1.6;
 }
 
+.scopri {
+    color:  #0061ff;
+}
+
+main .scopri:hover {
+    text-decoration: none;
+}
+
 /* fine esegui */
 /* fine main */
 
