@@ -54,7 +54,7 @@ body {
     width: 20%;
 }
 
-section.sec1{
+.mt-150{
     margin-top: 150px;
 }
 
@@ -342,7 +342,6 @@ main section .general hr {
 
 .contatto {
     position: relative;
-    margin-top: 150px;
 }
 
 .contatto .testo {
