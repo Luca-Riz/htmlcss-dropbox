@@ -300,6 +300,20 @@ main {
 /* inizio riga piani */
 /* inizio colonna sinistra */
 
+.piani .general .line i {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 2px;
+}
+.piani .general .line p {
+    display: inline-block;
+    width: 90%;
+}
+
+.piani .row .border {
+    height: 880px;
+}
+
 .row .w-30.border, .enterprise {
     border: 1px solid #d0d0d3;
 }
@@ -318,7 +332,7 @@ main {
     margin-bottom: 25px;
 }
 
-.row .general p, .enterprise p, .contatto .testo p {
+.row .general .line, .row .general > p, .enterprise p, .contatto .testo p {
     margin: 25px 0;
     font-size: 16px;
 }
