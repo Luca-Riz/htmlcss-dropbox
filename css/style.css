@@ -368,6 +368,10 @@ div.btn-black {
 
 /* fine contatto */
 
+/* inizio esegui */
+
+
+/* fine esegui */
 /* fine main */
 
 /* inizio footer */
@@ -395,10 +399,10 @@ div.btn-black {
     border: 1px solid black;
 } */
 
-.debug main .esegui .top {
+/* .debug main .esegui .top {
     background-color: lightpink;
     height: 100px;
-}
+} */
 
 .debug main .esegui .float-sx {
     height: 200px;
