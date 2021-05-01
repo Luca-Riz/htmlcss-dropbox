@@ -62,6 +62,14 @@ body {
     margin-top: 40px;
 }
 
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
 .pt-40 {
     padding-top: 40px;
 }
@@ -102,6 +110,10 @@ h4 {
 
 h5 {
     font-size: 20px;
+}
+
+.underline {
+    text-decoration: underline;
 }
 
 a.acq, .fa-check {
@@ -287,7 +299,7 @@ main {
 /* inizio riga piani */
 /* inizio colonna sinistra */
 
-.row .w-30, .enterprise {
+.row .w-30.border, .enterprise {
     border: 1px solid #d0d0d3;
 }
 
@@ -301,7 +313,7 @@ main {
     padding: 25px;
 }
 
-.row .general h3, .enterprise h3 {
+.row .general h3, .enterprise h3, .esegui h3 {
     margin-bottom: 25px;
 }
 
@@ -370,6 +382,13 @@ div.btn-black {
 
 /* inizio esegui */
 
+.esegui img {
+    width: 100%;
+}
+
+.esegui p {
+    line-height: 1.6;
+}
 
 /* fine esegui */
 /* fine main */
@@ -384,29 +403,13 @@ div.btn-black {
 
 .debug .team, .debug .faq {
     height: 500px;
+    background-color: aqua;
 }
 
 .debug footer {
     height: 500px;
     background-color: grey;
     margin-top: 150px;
-}
-
-
- /* .debug main section .testo{
-    background-color: rgb(178, 32, 154);
-    height: 200px;
-    border: 1px solid black;
-} */
-
-/* .debug main .esegui .top {
-    background-color: lightpink;
-    height: 100px;
-} */
-
-.debug main .esegui .float-sx {
-    height: 200px;
-    border: 1px solid black;
 }
 
 .debug footer div div{
