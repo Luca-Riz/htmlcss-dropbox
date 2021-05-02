@@ -123,6 +123,17 @@ a.acq:hover {
     text-decoration: none;
 }
 
+.btn-black a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    background-color: white;
+}
+.btn-black a:hover {
+    background-color:#f1f1f1;
+}
+
+
 /* fine common */
 
 
@@ -379,18 +390,12 @@ main section .general hr {
     line-height: 1.6;
 }
 
-div.btn-black {
+.contatto div.btn-black {
     margin-top: 50px;
 }
 
-.btn-black a{
-    text-decoration: none;
-    color: black;
-    padding: 10px 15px;
+.contatto .btn-black a {
     border: 1px solid black;
-}
-.btn-black a:hover {
-    background-color:#f1f1f1;
 }
 
 /* fine contatto */
@@ -417,23 +422,54 @@ main .scopri:hover {
 
 /* inizio team */
 
+/* tutte img team */
+.team .various img {
+    width: 150px;
+}
+
 .team .various {
     height: 30vw;
     width: 100vw;
-    background-color: chartreuse;
 }
 
 .team .various .sx, .team .various .dx {
     width: 30vw;
     height: 30vw;
-    background-color: brown;
 }
 
 .team .various .sx div, .team .various .dx div {
+    position: relative;
     height: 15vw;
     width: 15vw;
-    border: 1px solid black;
 } 
+
+.team .various .sx img, .team .various .dx img {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* da sistemare */
+}
+
+/* background color left */
+.team .various .designit {
+    background-color: #A2D39B;
+}
+
+.team .various .asu {
+    background-color: #61082B;
+}
+
+.team .various .uf {
+    background-color: #0093CE;
+}
+
+.team .various .topps {
+    background-color: #FF1C1C;
+}
+/* fine background color left */
+
+
 
 .team .various .center {
     height: 30vw;
@@ -445,9 +481,6 @@ main .scopri:hover {
     background-color: #f5f5f5;
 }
 
-.team .various .center .logo img {
-    width: 150px;
-}
 
 .team .various .center hr {
     width: 75px;
@@ -459,10 +492,50 @@ main .scopri:hover {
     margin-top: 90px;
 }
 
+/* background color right */
+.team .various .wbr {
+    background-color:#D5001F;
+}
 
+.team .various .hearst {
+    background-color: #B4D0E7;
+}
 
+.team .various .lonely {
+    background-color:#0D2481;
+}
 
+.team .various .clear {
+    background-color: #FFD830;
+}
+/* fine background color right */
 
+.team .porta {
+    position: relative;
+    height: 15vw;
+    background-color: #B4D0E7;
+}
+
+.team .porta .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.team .porta .container * {
+    display: inline-block;
+}
+
+.team .porta .container h2 {
+    color: #61082b;
+    margin-right: 140px;
+    margin-bottom: 0; /* annullo proprietà comune */s
+}
+
+.team .porta .container .btn-black {
+    vertical-align: top;
+}
 
 
 /* fine team */
@@ -473,28 +546,6 @@ main .scopri:hover {
 
 
 /* fine footer */
-
-/* inizio debug */
-
-.debug .faq {
-    height: 500px;
-    background-color: aqua;
-}
-
-.debug footer {
-    height: 500px;
-    background-color: grey;
-    margin-top: 150px;
-}
-
-.debug footer div div{
-    height: 150px;
-    background-color: lightyellow;
-    border: 1px solid black;
-}
-
-/* fine debug */
-
 
 
 
