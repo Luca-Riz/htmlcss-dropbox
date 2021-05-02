@@ -419,6 +419,7 @@ main .scopri:hover {
 
 .team .various {
     height: 30vw;
+    width: 100vw;
     background-color: chartreuse;
 }
 
@@ -436,7 +437,7 @@ main .scopri:hover {
 
 .team .various .center {
     height: 30vw;
-    width: 39vw;
+    width: 40vw;
     margin-left: 0;
     margin-right: 0;
     background-color: cadetblue;
