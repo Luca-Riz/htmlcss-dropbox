@@ -436,7 +436,7 @@ main .scopri:hover {
 /* inizio team */
 
 section.team {
-    width: 100vw;
+    width: 100%;
 }
 
 /* tutte img team */
@@ -446,18 +446,17 @@ section.team {
 
 .team .various {
     height: 30vw;
-
 }
 
 .team .various .sx, .team .various .dx {
-    width: 30vw;
+    width: 30%;
     height: 30vw;
 }
 
 .team .various .sx div, .team .various .dx div {
     position: relative;
     height: 15vw;
-    width: 15vw;
+    width: 50%;
 } 
 
 .team .various .sx img, .team .various .dx img {
@@ -493,7 +492,7 @@ section.team {
 
 .team .various .center {
     height: 30vw;
-    width: 40vw;
+    width: 40%;
     overflow-y: auto;
     margin-left: 0;
     margin-right: 0;
