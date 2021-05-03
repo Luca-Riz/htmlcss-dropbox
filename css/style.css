@@ -544,8 +544,66 @@ main .scopri:hover {
     vertical-align: top;
 }
 
-
 /* fine team */
+
+/* inizio faq */
+
+.faq {
+    margin: 150px auto;
+}
+
+.faq h3 {
+    padding-bottom: 50px;
+    border-bottom: 1px solid #d0d0d3;
+}
+
+.faq ul li {
+    border-bottom: 1px solid #d0d0d3;
+    padding: 30px 0 30px 0;
+}
+
+.faq ul li div{
+    position: relative;
+}
+
+.faq ul li .question p {
+    display: inline-block;
+}
+
+.faq ul li span.arrow {
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+}
+
+.faq ul li .answer{
+    color: #637381;
+    padding-top: 15px;
+    display: none;
+}
+
+.faq ul li .question .a-up{
+    display: none;
+}
+
+.faq ul li .question:hover + .answer{
+    display: inline-block;
+}
+
+.faq ul li .question:hover .a-up{
+    display: inline-block;
+}
+
+.faq ul li .question:hover .a-down{
+    display: none;
+}
+
+.faq ul li div.answer span {
+    text-decoration: underline;
+}
+
+/* fine faq */
+
 /* fine main */
 
 /* inizio footer */
