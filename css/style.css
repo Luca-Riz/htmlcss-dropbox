@@ -432,6 +432,10 @@ main .scopri:hover {
 
 /* inizio team */
 
+section.team {
+    width: 100vw;
+}
+
 /* tutte img team */
 .team .various img {
     width: 150px;
@@ -439,7 +443,7 @@ main .scopri:hover {
 
 .team .various {
     height: 30vw;
-    width: 100vw;
+
 }
 
 .team .various .sx, .team .various .dx {
