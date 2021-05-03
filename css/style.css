@@ -187,8 +187,14 @@ header nav ul li:hover .drop-down{
     display: inline-block;
 }
 
+header nav ul li .drop-down li:hover {
+    background-color: lightgrey;
+    border-bottom: none;
+}
+
 header .drop-down li {
     line-height: 40px;
+    
 }
 
 header .drop-down li:first-child{
