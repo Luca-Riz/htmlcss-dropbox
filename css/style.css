@@ -133,6 +133,10 @@ a.acq:hover {
     background-color:#f1f1f1;
 }
 
+.team .sx img, .team .dx img {
+    filter: invert(1);
+}
+
 
 /* fine common */
 
@@ -322,7 +326,7 @@ main {
 }
 
 .piani .row .border {
-    height: 880px;
+    min-height: 900px;
 }
 
 .row .w-30.border, .enterprise {
@@ -448,7 +452,6 @@ main .scopri:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white; /* da sistemare */
 }
 
 /* background color left */
@@ -458,6 +461,10 @@ main .scopri:hover {
 
 .team .various .asu {
     background-color: #61082B;
+    border: 10px solid rgba(255, 255, 255, 0.5);
+}
+.team .various .asu img, .team .center .logo img{
+    width: 100px;
 }
 
 .team .various .uf {
@@ -474,7 +481,7 @@ main .scopri:hover {
 .team .various .center {
     height: 30vw;
     width: 40vw;
-    overflow: auto;
+    overflow-y: auto;
     margin-left: 0;
     margin-right: 0;
     padding: 60px;
@@ -530,7 +537,7 @@ main .scopri:hover {
 .team .porta .container h2 {
     color: #61082b;
     margin-right: 140px;
-    margin-bottom: 0; /* annullo proprietà comune */s
+    margin-bottom: 0; /* annullo proprietà comune */
 }
 
 .team .porta .container .btn-black {
