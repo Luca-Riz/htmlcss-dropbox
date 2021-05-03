@@ -168,9 +168,31 @@ header .logo img{
     margin: calc((80px - 25px)/ 2);
 }
 
-header nav li {
+header nav ul li {
     line-height: 78px;
     margin: 0 20px;
+}
+
+header .drop-down {
+    position: fixed;
+    background-color: #f1f1f1;
+    display: inline-block;
+    padding: 20px;
+    top: 80px;
+    right: 390px;
+    display: none;
+}
+
+header nav ul li:hover .drop-down{
+    display: inline-block;
+}
+
+header .drop-down li {
+    line-height: 40px;
+}
+
+header .drop-down li:first-child{
+    margin-top: 5px;
 }
 
 header .inizia {
@@ -187,7 +209,7 @@ header nav a {
     color: black;
 }
 
-header nav li:hover {
+header nav ul li:hover {
     border-bottom: 2px solid black;
 }
 
