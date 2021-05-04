@@ -357,8 +357,12 @@ main {
     width: 90%;
 }
 
+.piani .general .line li {
+    margin-bottom: 23px;
+}
+
 .piani .row .border {
-    min-height: 900px;
+    min-height: 890px;
 }
 
 .row .w-30.border, .enterprise {
