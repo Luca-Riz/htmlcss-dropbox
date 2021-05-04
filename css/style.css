@@ -468,7 +468,7 @@ section.team {
 
 /* tutte img team */
 .team .various img {
-    width: 150px;
+    width: 50%;
 }
 
 .team .various {
@@ -502,8 +502,11 @@ section.team {
     background-color: #61082B;
     border: 10px solid rgba(255, 255, 255, 0.5);
 }
-.team .various .asu img, .team .center .logo img{
-    width: 100px;
+.team .various .asu img{
+    width: 40%;
+}
+.team .center .logo img{
+    width: 20%;
 }
 
 .team .various .uf {
