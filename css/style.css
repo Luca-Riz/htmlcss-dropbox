@@ -472,14 +472,14 @@ section.team {
 }
 
 .team .various .sx, .team .various .dx {
-    width: 30%;
+    width: 30vw;
     height: 30vw;
 }
 
 .team .various .sx div, .team .various .dx div {
     position: relative;
     height: 15vw;
-    width: 50%;
+    width: 15vw;
 } 
 
 .team .various .sx img, .team .various .dx img {
@@ -515,7 +515,7 @@ section.team {
 
 .team .various .center {
     height: 30vw;
-    width: 40%;
+    width: calc(100% - 60vw);
     overflow-y: auto;
     margin-left: 0;
     margin-right: 0;
